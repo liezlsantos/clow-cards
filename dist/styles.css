@@ -1,0 +1,49 @@
+/* Master Styles */
+h1 {
+  color: #333;
+  font-family: "Bookman Old Style";
+  font-size: 250%;
+  font-weight: normal;
+}
+
+h2, h3 {
+  color: #444;
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+body {
+  margin: 2em;
+  font-size: 16px;
+  font-family: Georgia;
+  font-weight: lighter;
+  line-height: 150%;
+}
+
+.clow-card {
+  width: 220px;
+  height: 550px;
+}
+
+.clow-card.front {
+  float: left;
+  margin-right: 20px;
+}
+
+div.card-desc {
+  width: 600px;
+  margin-top: 50px;
+}
+
+div.card-component {
+  margin-top: 50px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1 a:hover {
+  color: #555;
+}

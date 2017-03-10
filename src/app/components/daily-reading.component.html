@@ -1,6 +1,6 @@
 <!-- <h1>Clow Cards Daily Reading</h1> -->
 <div class="wrapper">
   <span *ngFor="let card of cards; let i = index" [routerLink]="['/clow-card', card.id]">
-    <img class="clow-card deck" src="images/deck.jpg" [ngStyle]="{left:i*20+'px'}" />
+    <img class="clow-card deck" src="/images/deck.jpg" [ngStyle]="{left:i*20+'px'}" />
   </span>
 </div>
