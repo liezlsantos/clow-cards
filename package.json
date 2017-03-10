@@ -21,15 +21,6 @@
     "aot",
     "typescript"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blacksonic/angular2-aot-webpack.git"
-  },
-  "author": {
-    "name": "blacksonic",
-    "email": "soos.gabor86@gmail.com"
-  },
-  "license": "ISC",
   "dependencies": {
     "@angular/common": "2.4.8",
     "@angular/compiler": "2.4.8",
