@@ -1,0 +1,10 @@
+<!-- Clow Card Details -->
+<div *ngIf="card" class="card-component">
+    <h2 class="card-name">{{card.name}}</h2>
+    <img class="clow-card front" src="/images/{{card.id}}.jpg"/>
+    <div class="card-desc">
+        <p>{{card.description}}</p>
+        <p><b>Card's Message</b>: {{card.message}}</p>
+        <p><b>Card's Warning</b>: {{card.warning}}</p>
+    </div>
+</div>

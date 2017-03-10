@@ -1,0 +1,29 @@
+/* Clow Card Styles */
+.clow-card.deck {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  right: 0;
+  -webkit-filter: grayscale(30%); /* Chrome, Safari, Opera */
+  filter: grayscale(30%);
+  border-radius: 8px;
+}
+
+.clow-card.deck:hover {
+  margin-top: -30px;
+  -webkit-box-shadow: 10px 10px 52px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 52px -14px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 52px -14px rgba(0,0,0,0.75);
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+}
+
+.clow-card-desc {
+  position: absolute;
+  top: 800px;
+}
+
+div.wrapper {
+  margin-top: 70px;
+  position: relative;
+}
